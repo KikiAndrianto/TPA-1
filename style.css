@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Helvetica;
+    scroll-behavior: smooth;
+}
+body {
+    background: rgb(246, 243, 243);
+}
+.navbar{
+    background-color: deepskyblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+
+}
+.logo {
+    font-size: 42px;
+    font-weight: 700;
+    color: #FFF;
+    cursor: pointer;
+    transition: all .5s ease 0s;
+}
+.logo:hover{
+    color: violet;
+    transform: rotate(2deg);
+}
+
+.nav-menu{
+    display: flex;
+}
+
+ul li {
+    margin: 0 10px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: Helvetica;
+}
+ul li a{
+    padding: 8px 20px;
+    border-radius: 25px;
+    color: #FFF;
+}
+
+ul li a:hover{
+    background-color: lightblue;
+    color: violet;
+}
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+.home-text{
+    margin-bottom: 100px;
+}
+.home-text h1 {
+    font-size: 60px;
+    margin-bottom: 50px;
+    color: deepskyblue;
+}
+  
+span {
+    color: violet;
+}
+  
+.home-text a {
+    font-size: 24px;
+    background-color: deepskyblue;
+    padding: 20px 40px;
+    color: #fff;
+    border-radius:50px;
+}
+.home-text a:hover{
+    background: violet;
+}
+
+.kelasK{
+    color: violet;
+}
+.home-img{
+    margin-right: 150px;
+}
+.tentang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: deepskyblue;
+    color: #FFFFFF;
+    padding: 20px;
+}
+.mt-10{
+    margin-top: 20px;
+}
+.title{
+    font-size: 24px;
+    font-weight: bold;
+   
+}
+.description{
+    font-size: 28px;
+    font-weight: bolder;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 50px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+.img-about{
+    margin-left: 50px;
+}
+.text-about{
+    margin-right: 80px;
+    margin-bottom: 100px;
+}
+.title-about{
+    font-size: 60px;
+    margin-bottom: 130px;
+    color: deepskyblue;
+    margin-right: 200px;
+    margin: 10px;
+}
+.text-about{
+    width: 600px;
+    height: 400px;
+    font-size: 20px;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: deepskyblue;
+    color: #eaeaea;
+}
+.porto-text h1{
+    align-items: center;
+}
