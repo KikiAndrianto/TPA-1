@@ -15,6 +15,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 50px;
+    box-shadow: rgb(38, 57, 77) 0px 10px 30px -10px;
 
 }
 .logo {
@@ -54,9 +55,12 @@ ul li a:hover{
     align-items: center;
     justify-content: space-between;
     padding: 10px 50px;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
+}
+.home-img{
+    margin-bottom: 90px;
 }
 .home-text{
     margin-bottom: 100px;
@@ -97,9 +101,7 @@ span {
     color: #FFFFFF;
     padding: 20px;
 }
-.mt-10{
-    margin-top: 20px;
-}
+
 .title{
     font-size: 24px;
     font-weight: bold;
@@ -143,6 +145,42 @@ footer{
     background-color: deepskyblue;
     color: #eaeaea;
 }
-.porto-text h1{
-    align-items: center;
+.porto-text {
+    margin-top: 50px;
+    margin-bottom:  20px;
 }
+.porto-text h1{
+    text-align: center;
+}
+.web-porto {
+    text-align: center;
+}
+.ket-web p{
+    text-align: center;
+    margin: 30px;
+}
+.title-blog{
+    font-size: 60px;
+    color: deepskyblue;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.blog{
+    margin-bottom: 167px;
+}
+.blog-ket{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.blog-isi{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.blog-isiket{
+    color: brown;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
